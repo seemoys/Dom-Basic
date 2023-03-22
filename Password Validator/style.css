@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+form{
+    border: 15px solid #6192ca90;
+    box-shadow: -7px -7px #8b8be049;
+    border-radius: 25px;
+    height:50vh;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+ width: 250px;
+ height: 30px;
+}
+label{
+    font-size: 25px;
+    font-family: monospace;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 2px 3px #808080;
+    cursor: pointer;
+}
